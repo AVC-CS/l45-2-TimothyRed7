@@ -11,7 +11,7 @@ def main():
     """
     i=0
     while(i==0):
-        v=random.randint(1,10)
+        v=random.randint(1,100)
         if(sum(numbers<100)):
             total=sum(numbers)
         else:
