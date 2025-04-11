@@ -12,8 +12,8 @@ def main():
     i=0
     while(i==0):
         v=random.randint(1,100)
-        if(sum(numbers<100)):
-            numbers.append(v)
+        numbers.append(v)
+        if(sum(numbers)<100):
             total=sum(numbers)
         else:
             i=1
