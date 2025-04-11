@@ -13,6 +13,7 @@ def main():
     while(i==0):
         v=random.randint(1,100)
         if(sum(numbers<100)):
+            numbers.append(v)
             total=sum(numbers)
         else:
             i=1
